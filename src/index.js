@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ComA from "./ComA";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode>
+  //   <App />
+  // </React.StrictMode>,
+  <>
+  {/* <h1>Dharm</h1> */}
+  <h1>Dhram</h1>
+  <ComA/>
+
+ 
+  </>,
   document.getElementById('root')
 );
 
